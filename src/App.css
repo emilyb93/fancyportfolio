@@ -99,12 +99,17 @@ body {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
 }
 .link {
   margin: 1vw;
   padding: 2rem 1rem;
   height: 10vw;
+  width: 20vw;
 
+  font-size: 3vw;
+  font-weight: 900;
+  letter-spacing: 4px;
   font-family: "Abril Fatface", cursive;
   display: inline-block;
   padding: 1vw 2vw;
@@ -112,17 +117,22 @@ body {
   text-decoration: none;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.254);
-  border: 1px solid rgba(255, 255, 255, 0.434);
-  backdrop-filter: blur(9px);
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 2vw;
+  border-top: 2px solid rgba(255, 255, 255, 0.434);
+  border-left: 2px solid rgba(255, 255, 255, 0.434);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.434);
+  border-right: 1px solid rgba(255, 255, 255, 0.434);
+  backdrop-filter: blur(15px);
   cursor: pointer;
   text-transform: uppercase;
   color: rgb(21, 20, 20);
   -webkit-box-shadow: inset -2px -7px 18px -4px rgba(0, 0, 0, 0.18),
-    inset 12px 11px 6px -4px rgba(255, 255, 255, 0.36);
+    inset 6px 6px 20px -4px rgba(255, 255, 255, 0.36);
   box-shadow: inset -2px -7px 18px -4px rgba(0, 0, 0, 0.18),
-    inset 12px 11px 6px -4px rgba(255, 255, 255, 0.36);
+    inset 6px 6px 20px -4px rgba(255, 255, 255, 0.36);
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.479);
 }
 
 @media screen and (max-width: 675px) {
