@@ -5,7 +5,7 @@ function GooeyBG() {
   function generateRandomCY() {
     const rand = Math.random() * 50;
 
-    return `${rand + 130}vh`;
+    return `${rand + 150}vh`;
   }
   function generateRandomSize() {
     const rand = Math.random() * 15;
@@ -29,17 +29,28 @@ function GooeyBG() {
 
     return possibles[rand];
   }
-  // function generateColor() {
-  //   const possibles = [];
-  //   const rand = Math.floor(Math.random() * possibles.length);
+  function generateColor() {
+    const possibles = [
+      "#ff7b00",
+      "#ff8800",
+      "#ff9500",
+      "#ffa200",
+      "#ffaa00",
+      "#ffb700",
+      "#ffc300",
+      "#ffd000",
+      "#ffdd00",
+      "#ffea00",
+    ];
+    const rand = Math.floor(Math.random() * possibles.length);
 
-  //   return possibles[rand];
-  // }
+    return possibles[rand];
+  }
 
   // const color1 = "#ffbe0b";
   // const color2 = "#ff006e";
-  const color1 = "#F4D06F";
-  const color2 = "#FF9933";
+  // const color1 = "#F4D06F";
+  // const color2 = "#FF9933";
   return (
     <Goo width="100vw" height="100vh" className="background-goo">
       <svg
@@ -51,84 +62,84 @@ function GooeyBG() {
         <circle
           cx="29%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="60%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         {/* <circle
           cx="20%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className="vert10"
         /> */}
         <circle
           cx="66%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         {/* <circle
           cx="49%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="1%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className="vert10"
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         /> */}
@@ -136,21 +147,21 @@ function GooeyBG() {
         <circle
           cx="60%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="66%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="49%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />{" "}
@@ -158,70 +169,70 @@ function GooeyBG() {
         <circle
           cx="1%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         {/* <circle
           cx="29%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="12%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="20%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         /> */}
@@ -229,70 +240,70 @@ function GooeyBG() {
         <circle
           cx="1%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="29%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         {/* <circle
           cx="12%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
-          fill={color1}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
         <circle
           cx="20%"
           cy={generateRandomCY()}
-          fill={color2}
+          fill={generateColor()}
           r={generateRandomSize()}
           className={generateRandomAnimation()}
         />
