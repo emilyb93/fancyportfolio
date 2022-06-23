@@ -62,6 +62,7 @@ body {
   grid-template-rows: repeat(10, 1fr);
   height: 100%;
   width: 100%;
+  animation: fade-in 1.2s ease-in 1;
 }
 
 #info-section {
@@ -212,5 +213,14 @@ body {
 @keyframes diagLeft {
   100% {
     transform: translate(-60vw, -255vh);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
