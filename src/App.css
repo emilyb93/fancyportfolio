@@ -2,7 +2,10 @@
   --blue: #2fcbee;
   --pink: #f269a7;
   --white: #f8f0fb;
-  --bgColor: #8338ec;
+
+  --bgColor: #9dd9d2;
+  /* --bgColor: #8338ec; */
+  --color1: #ffbe0b;
 }
 .App {
   text-align: center;
@@ -210,17 +213,17 @@ body {
 
 @keyframes verticalRise {
   100% {
-    transform: translate(10vw, -300vh);
+    transform: translate(50vw, -220vh);
   }
 }
 @keyframes diagRight {
   100% {
-    transform: translate(100vw, -350vh);
+    transform: translate(100vw, -205vh);
   }
 }
 
 @keyframes diagLeft {
   100% {
-    transform: translate(-100vw, -300vh);
+    transform: translate(-100vw, -200vh);
   }
 }
