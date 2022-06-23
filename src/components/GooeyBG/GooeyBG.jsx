@@ -13,97 +13,101 @@ function GooeyBG() {
 
   return (
     <Goo width="100vw" height="100vh" className="background-goo">
-      <svg className="goo-container">
+      <svg
+        className="goo-container"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+      >
         {/* verticals */}
         <circle
           cx="12%"
           cy={generateRandomCY()}
           fill={color1}
-          r="31vw"
+          r="11vw"
           className="vert8"
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
           fill={color1}
-          r="33vw"
+          r="13vw"
           className="vert8"
         />
         <circle
           cx="29%"
           cy={generateRandomCY()}
           fill={color1}
-          r="32vw"
+          r="12vw"
           className="vert8"
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
           fill={color1}
-          r="57vw"
+          r="27vw"
           className="vert12"
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
           fill={color1}
-          r="34vw"
+          r="14vw"
           className="vert8"
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
           fill={color1}
-          r="55vw"
+          r="25vw"
           className="vert12"
         />
         <circle
           cx="60%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="vert10"
         />
         <circle
-          cx="50%"
+          cx="20%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="vert10"
         />
         <circle
           cx="66%"
           cy={generateRandomCY()}
           fill={color2}
-          r="53vw"
+          r="23vw"
           className="vert12"
         />
         {/* <circle
           cx="49%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="vert8"
         />
         <circle
-          cx="3%"
+          cx="1%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="vert10"
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
           fill={color2}
-          r="55vw"
+          r="25vw"
           className="vert12"
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
           fill={color2}
-          r="55vw"
+          r="25vw"
           className="vert12"
         /> */}
         {/* diagonals right*/}
@@ -111,163 +115,163 @@ function GooeyBG() {
           cx="60%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="diagR8"
         />
         <circle
           cx="66%"
           cy={generateRandomCY()}
           fill={color2}
-          r="33vw"
+          r="13vw"
           className="diagR10"
         />
         <circle
           cx="49%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagR12"
         />{" "}
         /
         <circle
-          cx="3%"
+          cx="1%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagR8"
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagR12"
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagR10"
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
           fill={color1}
-          r="39vw"
+          r="19vw"
           className="diagR10"
         />
         {/* <circle
           cx="29%"
           cy={generateRandomCY()}
           fill={color1}
-          r="31vw"
+          r="11vw"
           className="diagR8"
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
           fill={color1}
-          r="37vw"
+          r="17vw"
           className="diagR12"
         />
         <circle
           cx="12%"
           cy={generateRandomCY()}
           fill={color1}
-          r="31vw"
+          r="11vw"
           className="diagR10"
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
           fill={color1}
-          r="34vw"
+          r="14vw"
           className="diagR10"
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
           fill={color1}
-          r="35vw"
+          r="15vw"
           className="diagR12"
         />
         <circle
-          cx="50%"
+          cx="20%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="diagR8"
         /> */}
         {/* diagonal left */}
         <circle
-          cx="3%"
+          cx="1%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagL8"
         />
         <circle
           cx="43%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagL10"
         />
         <circle
           cx="78%"
           cy={generateRandomCY()}
           fill={color2}
-          r="31vw"
+          r="11vw"
           className="diagL8"
         />
         <circle
           cx="85%"
           cy={generateRandomCY()}
           fill={color1}
-          r="39vw"
+          r="19vw"
           className="diagL10"
         />
         <circle
           cx="29%"
           cy={generateRandomCY()}
           fill={color1}
-          r="31vw"
+          r="11vw"
           className="diagL8"
         />
         <circle
           cx="87%"
           cy={generateRandomCY()}
           fill={color1}
-          r="37vw"
+          r="17vw"
           className="diagL8"
         />
         {/* <circle
           cx="12%"
           cy={generateRandomCY()}
           fill={color1}
-          r="31vw"
+          r="11vw"
           className="diagL8"
         />
         <circle
           cx="4%"
           cy={generateRandomCY()}
           fill={color1}
-          r="34vw"
+          r="14vw"
           className="diagL8"
         />
         <circle
           cx="15%"
           cy={generateRandomCY()}
           fill={color1}
-          r="35vw"
+          r="15vw"
           className="diagL8"
         />
         <circle
-          cx="50%"
+          cx="20%"
           cy={generateRandomCY()}
           fill={color2}
-          r="35vw"
+          r="15vw"
           className="diagL8"
         />
            */}

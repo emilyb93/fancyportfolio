@@ -20,6 +20,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: var(--bgColor);
 }
 
 #page {
@@ -168,7 +169,6 @@ body {
   height: 100vh;
   width: 100vw;
   grid-area: 1/1/9/9;
-  background-color: var(--bgColor);
 }
 
 .vert8 {
@@ -206,7 +206,7 @@ body {
 
 @keyframes verticalRise {
   100% {
-    transform: translateY(-300vh);
+    transform: translate(10vw, -300vh);
   }
 }
 @keyframes diagRight {
